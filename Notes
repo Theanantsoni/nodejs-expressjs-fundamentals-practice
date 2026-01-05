@@ -1,0 +1,58 @@
+
+Project Definition:
+
+This is a Node.js and Express.js practice project created to learn backend concepts step by step. 
+Each concept is organized in a separate folder with its own app.js
+file. Only one concept is run at a time by uncommenting its import in index.js.
+This structure helps in understanding each concept independently without mixing
+code or using comment/uncomment inside a single file.
+
+// -----------------------------------------------
+
+Concepts Covered: 
+
+- First App with Node js (Hello World)
+- Create Server in Node js
+- Make Simple API in Node js
+- Understand Request Params
+- Load HTML file & show Output
+- Submit form in Node js
+- Modules and Routes
+- Path Module & Path constants
+- Express JS setup
+- Render HTML file in Express JS
+- 404 Page in Express JS
+- Add CSS with Express JS
+- Middleware (Method 1 & 2)
+- Route Middleware
+- External Middleware (Morgan)
+- Error Handling Middleware
+- Template Engine (EJS)
+- MVC Architecture
+- Dynamic Routes
+- API with Dynamic Routes
+
+// -----------------------------------------------
+
+Hello World				01-hello-world/app.js
+Create Server			02-create-server/app.js
+Simple API				03-simple-api/app.js
+Request Params			04-request-params/app.js
+Load HTML				05-load-html/app.js
+Submit Form				06-submit-form/app.js
+Modules & Routes		07-modules-routes/app.js
+Path Module				08-path-module/app.js
+Express Setup			09-express-setup/app.js
+Render HTML				10-render-html/app.js
+404 Page				11-404-page/app.js
+Add CSS					12-add-css/app.js
+Middleware (1 & 2)		13-middleware/app.js
+Route Middleware		14-route-middleware/app.js
+Morgan					15-morgan/app.js
+Error Middleware		16-error-middleware/app.js
+EJS						17-ejs/app.js
+EJS Conditions			18-ejs-conditions/app.js
+MVC						19-mvc/app.js
+Dynamic Routes			20-dynamic-routes/app.js
+API Dynamic Routes	 	21-api-dynamic-routes/app.js
+
