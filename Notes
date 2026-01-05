@@ -1,15 +1,19 @@
+PROJECT NAME:
+nodejs-expressjs-fundamentals-practice
 
-Project Definition:
+PROJECT SUMMARY:
+Practice-based learning project for Node.js and Express.js fundamentals with a clean and modular structure.
 
-This is a Node.js and Express.js practice project created to learn backend concepts step by step. 
-Each concept is organized in a separate folder with its own app.js
-file. Only one concept is run at a time by uncommenting its import in index.js.
-This structure helps in understanding each concept independently without mixing
-code or using comment/uncomment inside a single file.
+PROJECT DESCRIPTION:
+This is a Node.js and Express.js practice project created to learn backend concepts step by step.
+Each concept is organized in a separate folder with its own app.js file.
+Only one concept is run at a time by uncommenting its import in index.js.
+This structure helps in understanding each concept independently without mixing code
+or using comment/uncomment inside a single file.
 
-// -----------------------------------------------
+--------------------------------------------------
 
-Concepts Covered: 
+CONCEPTS COVERED:
 
 - First App with Node js (Hello World)
 - Create Server in Node js
@@ -32,27 +36,107 @@ Concepts Covered:
 - Dynamic Routes
 - API with Dynamic Routes
 
-// -----------------------------------------------
+--------------------------------------------------
 
-Hello World				01-hello-world/app.js
-Create Server			02-create-server/app.js
-Simple API				03-simple-api/app.js
-Request Params			04-request-params/app.js
-Load HTML				05-load-html/app.js
-Submit Form				06-submit-form/app.js
-Modules & Routes		07-modules-routes/app.js
-Path Module				08-path-module/app.js
-Express Setup			09-express-setup/app.js
-Render HTML				10-render-html/app.js
-404 Page				11-404-page/app.js
-Add CSS					12-add-css/app.js
-Middleware (1 & 2)		13-middleware/app.js
-Route Middleware		14-route-middleware/app.js
-Morgan					15-morgan/app.js
-Error Middleware		16-error-middleware/app.js
-EJS						17-ejs/app.js
-EJS Conditions			18-ejs-conditions/app.js
-MVC						19-mvc/app.js
-Dynamic Routes			20-dynamic-routes/app.js
-API Dynamic Routes	 	21-api-dynamic-routes/app.js
+CONCEPT FOLDER MAPPING:
 
+Hello World                 → 01-hello-world/app.js
+Create Server               → 02-create-server/app.js
+Simple API                  → 03-simple-api/app.js
+Request Params              → 04-request-params/app.js
+Load HTML                   → 05-load-html/app.js
+Submit Form                 → 06-submit-form/app.js
+Modules & Routes            → 07-modules-routes/app.js
+Path Module                 → 08-path-module/app.js
+Express Setup               → 09-express-setup/app.js
+Render HTML                 → 10-render-html/app.js
+404 Page                    → 11-404-page/app.js
+Add CSS                     → 12-add-css/app.js
+Middleware (1 & 2)          → 13-middleware/app.js
+Route Middleware            → 14-route-middleware/app.js
+Morgan Middleware           → 15-morgan/app.js
+Error Middleware            → 16-error-middleware/app.js
+EJS                         → 17-ejs/app.js
+EJS Conditions              → 18-ejs-conditions/app.js
+MVC Architecture            → 19-mvc/app.js
+Dynamic Routes              → 20-dynamic-routes/app.js
+API Dynamic Routes          → 21-api-dynamic-routes/app.js
+
+--------------------------------------------------
+
+NODE_MODULES NOTE:
+
+The node_modules folder contains all installed dependencies required to run this project.
+This folder is not included in the GitHub repository.
+It is generated automatically after installing packages.
+
+COMMAND TO INSTALL node_modules:
+npm install
+
+--------------------------------------------------
+
+REQUIRED PACKAGES & COMMANDS:
+
+1) Express.js
+Used to create server, routes, and handle requests and responses.
+Command:
+npm install express
+
+2) EJS (Template Engine)
+Used to render dynamic HTML pages and pass data from server to UI.
+Command:
+npm install ejs
+
+3) Morgan (External Middleware)
+Used for logging HTTP requests in the console.
+Command:
+npm install morgan
+
+4) Nodemon (Development Dependency)
+Used to automatically restart the server when file changes occur.
+Command:
+npm install nodemon --save-dev
+
+INSTALL ALL PACKAGES TOGETHER:
+npm install express ejs morgan
+npm install nodemon --save-dev
+
+--------------------------------------------------
+
+HOW TO RUN THE PROJECT:
+
+Run with Node.js:
+node index.js
+
+Run with Nodemon (Recommended):
+npx nodemon index.js
+
+--------------------------------------------------
+
+IMPORTANT NOTES:
+
+- Only ONE app.js should be active at a time
+- Uncomment the required concept import in index.js
+- Keep all other imports commented to avoid port conflicts
+- node_modules is ignored using .gitignore
+
+--------------------------------------------------
+
+TECHNOLOGIES USED:
+
+- Node.js
+- Express.js
+- EJS
+- Morgan
+- JavaScript (ES Modules)
+
+--------------------------------------------------
+
+PROJECT PURPOSE:
+
+- Build strong fundamentals in backend development
+- Understand Express.js concepts clearly and independently
+- Maintain a clean and revision-friendly learning structure
+- Prepare for real-world backend projects
+
+--------------------------------------------------
