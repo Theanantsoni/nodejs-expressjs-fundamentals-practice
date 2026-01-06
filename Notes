@@ -1,14 +1,17 @@
 PROJECT NAME:
+
 nodejs-expressjs-fundamentals-practice
 
 --------------------------------------------------
 
 PROJECT SUMMARY:
+
 Practice-based learning project for Node.js and Express.js fundamentals with a clean and modular structure.
 
 --------------------------------------------------
 
 PROJECT DESCRIPTION:
+
 This is a Node.js and Express.js practice project created to learn backend concepts step by step.
 Each concept is organized in a separate folder with its own app.js file.
 Only one concept is run at a time by uncommenting its import in index.js.
